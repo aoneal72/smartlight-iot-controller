@@ -2,7 +2,7 @@
 
 ### ENGR 491 – Engineering Capstone I  
 **Regent University | Fall 2025**  
-**Team Members:** Riley Pence, [Add other members here]  
+**Team Members:** Riley Pence, Alex O'Neal, William Denson, Elijah Atkinson
 **Instructor:** Dr. Alfa Nyandoro  
 
 ---
@@ -37,12 +37,19 @@ The system enables users to:
 
 ## 📁 Repository Structure
 smartlight-iot-controller/
+
 ├── hardware/ # Schematics, wiring diagrams, component lists
+
 ├── firmware/ # ESP32 source code (Arduino/PlatformIO)
+
 ├── webapp/ # Backend and web interface
+
 ├── docs/ # Design documentation and reports
+
 ├── .gitignore
+
 ├── LICENSE
+
 └── README.md
 
 
