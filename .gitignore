@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.env
+venv/
+.env.*
+*.log
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Django / web app
+/staticfiles/
+media/
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+
+# Node / frontend (if you use it later)
+node_modules/
+dist/
+build/
+
+# ESP32 / Arduino IDE
+*.bin
+*.elf
+*.hex
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
