@@ -22,7 +22,7 @@ media/
 *.pyd
 db.sqlite3
 
-# Node / frontend (if you use it later)
+# Node / frontend
 node_modules/
 dist/
 build/

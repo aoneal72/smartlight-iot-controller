@@ -1,0 +1,25 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: smartlight
+      POSTGRES_USER: smartlight
+      POSTGRES_PASSWORD: smartlight
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  server:
+    build: ./server
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./ops/env/.env
+    volumes:
+      - ./server:/app
+    depends_on:
+      - db
+
+volumes:
+  pgdata:
