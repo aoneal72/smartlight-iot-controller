@@ -61,7 +61,7 @@ No local Python or Django installation is required.
 
 All setup instructions and development workflows are maintained in a centralized onboarding document.
 
-👉 **[Team Onboarding & Development Setup Guide]((https://docs.google.com/document/d/1S6X8KR8X2IKavoMGxNuK4bp7QqtarrereW7RVvmiM-k/edit?tab=t.0))**
+👉 **[Team Onboarding & Development Setup Guide](https://docs.google.com/document/d/1S6X8KR8X2IKavoMGxNuK4bp7QqtarrereW7RVvmiM-k/edit?tab=t.0)**
 
 Please follow the onboarding guide **before making any code changes**.
 
